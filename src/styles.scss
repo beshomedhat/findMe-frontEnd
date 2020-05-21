@@ -10,4 +10,15 @@
     src: url(assets/fonts/Big_Shoulders_Display/BigShouldersDisplay-Regular.ttf) format("opentype");
   }
 
-  
+h1,h2,h3,h4,h5{
+  font-family: Big_Shoulders_Display;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+

@@ -29,7 +29,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
+    path: 'home',
     component: BlankLayoutComponent,
     children: [
       {
@@ -37,7 +37,8 @@ const routes: Routes = [
         loadChildren: () => import ('./views/pages/pages.module').then(m => m.PagesModule)
       }
     ]
-  }
+  },
+  {path:'' , redirectTo: 'home' , pathMatch:'full'}
 ];
 
 @NgModule({
