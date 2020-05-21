@@ -6,6 +6,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
+  
+  
   {
     path: '',
     component:HomeComponent
@@ -18,7 +20,6 @@ const routes: Routes = [
     path: 'contact',
     component:ContactComponent
   },
-  {path:'' , redirectTo: 'home' , pathMatch:'full'}
 ];
 
 @NgModule({
